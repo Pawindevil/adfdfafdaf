@@ -1,0 +1,15 @@
+.grid_Ventas {
+	color: white ;
+	display: flex ;
+	display: grid ;
+	grid-template-areas: "vip vip"
+    "b_Vip b_Vip"
+    "admin_Cs admin_Cs"
+    "b_Admin_Cs b_Admin_Cs"
+    "recursos_Left recursos_Left"
+    "recursos_Right recursos_Right" ;
+	justify-content: center ;
+	grid-template-columns: 33% 33% 33% ;
+	background-color: black ;
+	flex-flow: nowrap ;
+}

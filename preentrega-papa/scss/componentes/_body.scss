@@ -1,0 +1,50 @@
+h1 {
+	color: violet ;
+	font-style: unset ;
+}
+h2 {
+	color: rgb(255,100,23) ;
+	padding-bottom: 30px;
+}
+h3 {
+    display: flex;
+  color: yellowgreen;
+  font-style: inherit;
+  padding: 20px;
+  justify-content: center;
+  background-color: black;
+}
+main {
+	padding-bottom: 50px ;
+	padding-top: 25px ;
+}
+.main_Grid {
+	display: grid ;
+	grid-template-columns: 80% 20% ;
+}
+ul,ol {
+	list-style: none ;
+}
+#icon {
+	display: flex ;
+	gap: 2px ;
+}
+body {
+	background-color: gray ;
+	background-repeat: no-repeat ;
+	background-size: cover ;
+}
+a {
+	text-decoration: none ;
+}
+.info{ 
+	color: white ;
+}
+.title{
+    display: flex;
+    color: yellowgreen;
+    font-style: inherit;
+    padding: 20px;
+    justify-content: center;
+    background-color: black;
+}

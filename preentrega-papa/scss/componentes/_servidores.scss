@@ -1,0 +1,9 @@
+.gridsv {
+	display: grid ;
+	grid-template-areas: "img img" 
+    "info info" ;
+	grid-template-columns: 35px 35px 35x 35px ;
+	grid-template-rows: auto ;
+	gap: 40px ;
+	background-color: black ;
+}
